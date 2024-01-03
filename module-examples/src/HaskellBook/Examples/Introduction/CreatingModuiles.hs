@@ -1,6 +1,6 @@
 {-# LANGUAGE RecordWildCards #-}
 
-module HaskellBook.Examples.Introduction.CreatingModuiles (Name, Salutation, GreetingMessage, defaultMessage, formatMessage, testMessage) where
+module HaskellBook.Examples.Introduction.CreatingModuiles (Name (..), Salutation (..), GreetingMessage (..), defaultMessage, formatMessage, testMessage) where
 
 data Name = Name {getName :: String}
 
